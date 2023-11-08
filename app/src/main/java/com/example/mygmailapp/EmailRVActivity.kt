@@ -5,8 +5,8 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myandroidexercise.EmailModel
-import com.example.myandroidexercise.RVEmailItemAdapter
+import com.example.mygmailapp.RVEmailItemAdapter
+import com.example.mygmailapp.EmailModel
 import com.example.mygmailapp.R
 
 class EmailRVActivity: AppCompatActivity() {

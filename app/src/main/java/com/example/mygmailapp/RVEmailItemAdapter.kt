@@ -1,4 +1,4 @@
-package com.example.myandroidexercise
+package com.example.mygmailapp
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mygmailapp.R
+
 
 class RVEmailItemAdapter(private val items: ArrayList<EmailModel>): RecyclerView.Adapter<RVEmailItemAdapter.RVEmailItemViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RVEmailItemViewHolder {
